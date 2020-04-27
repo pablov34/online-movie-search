@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'
+import Footer from '../components/footer';
 
 const API_KEY="53555df3"
 
@@ -55,6 +56,7 @@ class Detail extends React.Component
                 <h3>{Actors}</h3>
                 <span>{Metascore}</span>
                 <p>{Plot}</p>
+                <Footer></Footer>
             </div>  
         )
     }

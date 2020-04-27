@@ -47,7 +47,7 @@ class SearchForm extends React.Component
                 </div>
                 <div className="control">
                 <button className="button is-info">
-                    Search
+                    Buscar
                 </button>
                 </div>
               </div>

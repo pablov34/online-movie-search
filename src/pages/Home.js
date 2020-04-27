@@ -2,6 +2,7 @@ import React from 'react'
 import { Title } from '../components/Title'
 import SearchForm from '../components/SearchForm';
 import MoviesList from '../components/MoviesList';
+import Footer from '../components/footer';
 
 class Home extends React.Component{
     constructor(){
@@ -15,7 +16,7 @@ class Home extends React.Component{
 
      _renderResult(){
       return this.state.results.length === 0
-        ? <p>Sorry! Results not found!</p>
+        ? <p>Lo siento! Resultados no encontrados!</p>
         : <MoviesList movies={this.state.results}></MoviesList>
      }
  
@@ -23,14 +24,16 @@ class Home extends React.Component{
   render(){
       return(
         <div>
-            <Title>Search Movies</Title>
+            <Title>Buscador de peliculas </Title>
             <div className="SearchForm-wrapper">
             <SearchForm onResults={this._handleResults}></SearchForm>
             </div>
-            {this.state.usedSearch
+            {
+              this.state.usedSearch
             ? this._renderResult()
-            : <small>Use the form to search movies</small>
+            : <small>Use el buscador para encontrar peliculas</small>
             }
+            <Footer></Footer>
         </div>
       )
   }

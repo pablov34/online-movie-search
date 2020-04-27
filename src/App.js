@@ -41,7 +41,7 @@ class App extends React.Component {
    // const hasId = url.searchParams.has('id');
    /* const Page = url.searchParams.has('id')
     ? <Detail id={url.searchParams.get('id')}></Detail>
-    : <Home></Home>*/
+    : <Home></Home> */ 
 
     return (
         <div className="App">

@@ -19,3 +19,28 @@
   margin-bottom: 24px;
   width: 48%;
 }
+.footer {
+  position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+   clear: both;
+    bottom: 0;
+}
+
+.imglkn
+{
+  float: right
+}
+.imglinkein
+{
+  width: 55px;
+margin:20px;
+}
+.address
+{
+  float: left;
+  padding: 20px;
+  font-size: 12px;
+}
