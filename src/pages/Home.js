@@ -2,7 +2,7 @@ import React from 'react'
 import { Title } from '../components/Title'
 import SearchForm from '../components/SearchForm';
 import MoviesList from '../components/MoviesList';
-import Footer from '../components/footer';
+
 
 class Home extends React.Component{
     constructor(){
@@ -32,8 +32,7 @@ class Home extends React.Component{
               this.state.usedSearch
             ? this._renderResult()
             : <small>Use el buscador para encontrar peliculas</small>
-            }
-            <Footer></Footer>
+            }           
         </div>
       )
   }

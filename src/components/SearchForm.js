@@ -43,7 +43,7 @@ class SearchForm extends React.Component
                     className="input"
                     onChange={this._handleChange}
                     type="text" 
-                    placeholder="Movie to search" />
+                    placeholder="Pelicula a Buscar" />
                 </div>
                 <div className="control">
                 <button className="button is-info">

@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  padding-top: 36px;
+  height: 100vh;  /*para colocar el footer abajo*/
+  display: flex;
+  flex-direction: column;
 }
 
 .SearchForm-wrapper{
@@ -13,12 +15,12 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding:16px;
-
 }
 .MoviesList-item{
   margin-bottom: 24px;
   width: 48%;
 }
+
 .footer {
   position: relative;
    left: 0;
@@ -27,6 +29,8 @@
    text-align: center;
    clear: both;
     bottom: 0;
+    background-color: whitesmoke;
+    margin-top: auto;
 }
 
 .imglkn
